@@ -1,0 +1,332 @@
+
+.index_top_row_box {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+   /* border-color: black;
+    border-style: solid; */
+
+    padding-top: 2px;
+  /*  background-color: #F5F5F5; */
+
+}
+
+.top_row_space1 {
+
+    width: 75px;
+
+}
+
+
+.top_row_logo_img_box {
+
+
+
+    display: flex;
+    flex-direction: column;
+
+    width: 150px;
+    height: 143px;
+
+    background-color: black;
+
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+
+    border-radius: 15px;
+
+    cursor: pointer;
+
+}
+
+.rod_tekst_STOP {
+
+    color: red;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 46px;
+    margin: -2px;
+
+}
+
+.hvid_tekst_SPILD_AF {
+
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    margin: -2px;
+
+}
+
+.hvid_tekst_MAD {
+
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    margin: -2px;
+
+}
+
+.top_row_space2 {
+
+    width: 15px;
+
+}
+
+.top_row_princip_text_box {
+
+
+
+    display: flex;
+    flex-direction: column;
+
+
+    /* background-color: #C2D188;
+    border-radius: 15px; */
+    padding: 10px;
+
+
+}
+
+.princip_headline {
+
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+    margin: 0px;
+    padding-bottom: 15px;
+
+}
+
+.line_top {
+
+    border-style: groove;
+    border-color: #C2D188;
+
+
+}
+
+
+.princip_headline_text {
+
+  /*  color: white; */
+    color: black;
+    font-family: "open sans", sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    margin: 0px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.line_bottom {
+
+    border-style: groove;
+    border-color: #C2D188;
+
+
+}
+
+
+.top_row_promote_box_spaceBetween {
+
+
+
+width: 400px;
+
+
+
+}
+
+
+.takeOver_promote_box {
+
+    display: flex;
+
+    width: 150px;
+    height: 142px;
+
+
+
+}
+
+.top_row_promote_box {
+
+
+    display: flex;
+    flex-direction: row;
+
+
+
+ border: lightgrey 5px double;
+
+
+}
+
+.top_row_promote_content1 {
+
+    display: flex;
+    flex-direction: column;
+
+
+    width: 50px;
+    height: 100px;
+
+    padding-right: 10px;
+    padding-top: 10px;
+
+}
+
+.top_row_promote_content2 {
+
+    display: flex;
+    flex-direction: column;
+
+
+
+
+
+
+   width: 100px;
+    height: 100px;
+    padding-right: 10px;
+    padding-top: 10px;
+
+
+}
+
+.top_row_promote_content3 {
+
+    display: flex;
+
+    flex-direction: row;
+
+
+    height: 30px;
+
+
+/*
+    border-color: black;
+
+    border-style: double;
+
+    border-color: black;
+*/
+
+
+}
+
+
+
+.language_button {
+
+    padding-bottom: 10px;
+
+    cursor: pointer;
+
+
+}
+
+
+.facebook_button {
+
+
+    background-color: royalblue;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+
+
+}
+
+.top_row_promote_content2_space {
+
+width: 10px;
+
+}
+
+.folg_os_button {
+
+    display: flex;
+    align-self: center;
+
+    color: white;
+    background-color: #C2D188;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px;
+    padding: 5px;
+
+    margin-bottom: 5px;
+
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+
+}
+
+.Kontakt_button {
+
+    display: flex;
+    align-self: center;
+
+    color: white;
+    background-color: #C2D188;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px;
+    padding: 5px;
+
+    margin-bottom: 5px;
+
+
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+
+}
+
+.searchField_text {
+
+    cursor: pointer;
+
+
+}
+
+.searchButton_text {
+
+    display: flex;
+    align-self: center;
+
+    color: black;
+    background-color:lightgrey;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0px;
+    padding: 6px;
+
+    border-radius: 10px;
+    border-color: grey;
+
+    cursor: pointer;
+
+}
+
