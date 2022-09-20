@@ -182,9 +182,9 @@ width: 0px;
     flex-direction: row;
 
 
-
+<!--
  border: lightgrey 5px double;
-
+-->
 
 }
 
@@ -206,6 +206,12 @@ width: 0px;
 
     display: flex;
     flex-direction: column;
+
+
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
 
 
 
@@ -241,14 +247,36 @@ width: 0px;
 
 }
 
+.ekstra_row_box {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    flex-direction: row;
+
+    width: 205px;
+
+
+
+
+}
+
 
 
 .language_button {
 
-    padding-bottom: 10px;
+
 
     cursor: pointer;
 
+    width: 45px;
+    height: 45px;
+
+    position: relative;
+    bottom: 12px;
+    left: 10px;
 
 }
 
@@ -261,6 +289,13 @@ width: 0px;
     border-radius: 10px;
 
     cursor: pointer;
+
+    width: 55px;
+    height: 45px;
+
+    position: relative;
+    bottom: 5px;
+    left: 6px;
 
 
 
@@ -276,16 +311,22 @@ width: 10px;
 
     display: flex;
     align-self: center;
+    justify-content: center;
 
     color: white;
-    background-color: #C2D188;
+    background-color: cadetblue;
     font-family: Montserrat, sans-serif;
     font-weight: bold;
     font-size: 20px;
     margin: 0px;
-    padding: 5px;
+    padding: 10px;
 
-    margin-bottom: 5px;
+    width: 155px;
+
+    position: relative;
+    bottom: 15px;
+    left: 40px;
+
 
 
     border-radius: 10px;
@@ -299,16 +340,106 @@ width: 10px;
 
     display: flex;
     align-self: center;
+    justify-content: center;
 
     color: white;
-    background-color: #C2D188;
+    background-color: cadetblue;
     font-family: Montserrat, sans-serif;
     font-weight: bold;
     font-size: 20px;
     margin: 0px;
-    padding: 5px;
+    padding: 10px;
 
-    margin-bottom: 5px;
+    width: 155px;
+
+    position: relative;
+    bottom: 15px;
+    left: 2px;
+
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+
+}
+
+.omMadspild_button {
+
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+
+
+    color: white;
+    background-color: cadetblue;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px;
+    padding: 10px;
+    padding-right: -10px;
+    padding-left: -10px;
+
+    width: 155px;
+
+    position: relative;
+    bottom: 15px;
+    left: 2px;
+
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+}
+
+.priser_button {
+
+    display: flex;
+    align-self: center;
+    justify-content: center;
+
+    color: white;
+    background-color: cadetblue;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px;
+    padding: 10px;
+
+    position: relative;
+    bottom: 15px;
+    left: 2px;
+
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+
+}
+
+.teams_og_partnere_button {
+
+    display: flex;
+    align-self: center;
+    justify-content: center;
+
+    color: white;
+    background-color: cadetblue;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px;
+    padding: 10px;
+
+    width: 155px;
+
+    position: relative;
+    left: 2px;
+    bottom: 15px;
 
 
 
@@ -326,23 +457,89 @@ width: 10px;
 
 }
 
+.ekstra_column_box {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    align-self: center;
+    align-content: center;
+    align-items: center;
+
+
+
+    width: 50px;
+    height: 130px;
+
+}
+
 .searchButton_text {
 
     display: flex;
     align-self: center;
 
-    color: black;
-    background-color:lightgrey;
-    font-family: Montserrat, sans-serif;
-    font-weight: bold;
-    font-size: 18px;
-    margin: 0px;
-    padding: 6px;
 
     border-radius: 10px;
     border-color: grey;
 
+
+    margin: 0px;
+    padding: 6px;
+
+    width: 65px;
+    height: 65px;
+
+    position: relative;
+    bottom: 25px;
+
+
+
     cursor: pointer;
+
+}
+
+.Section_line1 {
+
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    left: 10px;
+
+    height: 150px;
+
+    border: grey 2px dotted;
+
+}
+
+
+.Section_line2 {
+
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    left: 18px;
+
+    height: 150px;
+
+    border: grey 2px dotted;
+
+}
+
+
+.Section_line3 {
+
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    left: 4px;
+
+    height: 150px;
+
+    border: grey 2px dotted;
 
 }
 
@@ -390,6 +587,7 @@ display: flex;
 .topnav a:hover {
     background-color: #C2D188;
     color: red;
+    opacity: 0.7;
 }
 
 .topnav a.active {
@@ -425,9 +623,10 @@ background-color: whitesmoke;
 /* Slideshow container */
 .slideshow-container {
 
-    max-width: 1150px;
+    max-width: 1020px;
     position: relative;
     margin: auto;
+
 }
 
 .slideText_Row_box {
@@ -456,8 +655,8 @@ background-color: whitesmoke;
 
     margin: 0;
     position: absolute;
-    bottom: 60px;
-    left: 287.5px;
+    bottom: 30px;
+    left: 250px;
 
     text-align: center;
     background-color: whitesmoke;
@@ -540,11 +739,202 @@ background-color: whitesmoke;
 
 }
 
-.slide_text1 {
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+
+    background-color: #C2D188;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+
+}
+
+.footer_tekst {
+
+    font-family: "open sans", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 15px;
+
+}
+
+.hover_effect_button p:hover {
+
+
+background-color: black;
+
+
+    color: red;
+
+    opacity: 0.7;
+
+}
+
+.hover_effect2_button img:hover {
+
+
+
+    border: #C2D188 solid;
+
+    opacity: 0.7;
+
+}
+
+
+.hover_effectLogo_button div:hover {
+
+    border: #C2D188 solid;
+
+    opacity: 0.7;
+
+}
+
+.togootogo_link {
+
+    text-decoration: none;
+    cursor: pointer;
+
+    background-color: #C2D188;
+    width: 200px;
+    height: 150px;
+
+    font-family: "open sans";
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px;
+
+    border-radius: 5px;
+
+color: black;
+
+}
+
+
+.hover_effectLink_button a:hover {
+
+    border: black solid;
+
+    opacity: 0.7;
 
 
 
 }
+
+/* -------------------------------------------------------- */
+/* Modal box style ---------------------------------------- */
+/* -------------------------------------------------------- */
+
+
+/* -------------------------------------------------------- */
+/* Modal box Om Stop af Madspild ---------------------------------------- */
+/* -------------------------------------------------------- */
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: black;
+    float: right;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #C2D188;
+    color: black;
+}
+
+.modal-body {
+
+    padding: 2px 16px;
+
+    border-radius: 15px;
+
+
+}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: white;
+    color: white;
+}
+
+
+.StopMadspild_text1 {
+
+    font-family: "open sans";
+
+    font-size: 20px;
+    font-weight: lighter;
+
+
+
+}
+
+.StopMadspild_text2{
+
+    font-family: "open sans";
+
+    font-size: 20px;
+    font-weight: lighter;
+
+
+
+}
+
+
 
 
 

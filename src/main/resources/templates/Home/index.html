@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" th:href="@{css/style.css}" href="../static/css/style.css">
+
+
+
+
     <title>Danmark mod Madspild</title>
+
 </head>
 
 <header>
@@ -13,10 +18,14 @@
 
         <div class="top_row_space1"></div>
 
+        <div class="hover_effectLogo_button">
+
         <div class="top_row_logo_img_box">
             <p class="rod_tekst_STOP">STOP</p>
             <p class="hvid_tekst_SPILD_AF">SPILD AF</p>
             <p class="hvid_tekst_MAD">MAD</p>
+
+        </div>
 
           <!-- <img th:src="@{images/madspild_img/logo_img.PNG}" src="../static/images/madspild_img/logo_img.PNG}"> -->
         </div>
@@ -50,6 +59,8 @@
 
         </div> </div>
 
+
+
         <div class="top_row_princip_container2">
 
         <div class="top_row_princip_text_box">
@@ -65,6 +76,9 @@
 
         </div>
 
+
+
+
         <div class="top_row_princip_text_box">
 
             <div class="line_top"></div>
@@ -76,43 +90,159 @@
 
         </div> </div>
 
+        <div class="Section_line1"></div>
 
-        <div class="top_row_promote_box_spaceBetween"></div>
+
+        <!----------------------------------------------------------- -->
+        <!-- Modal windows sections: --------------------------------- -->
+        <!----------------------------------------------------------- -->
+
+        <!-- The Modal - Om Stop af Madspild. -->
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <span class="close">&times;</span>
+
+                    <i><h1>Om Stop af Madspild:</h1></i>
+                </div>
+
+                <div class="modal-body">
+                    <p class="StopMadspild_text1"><b>Vi er Danmarks største bevægelse mod madspild.</b><br><br>
+                        <i>Stop Spild Af Mad</i> er en non-profit, frivillig forbrugerbevægelse,
+                        som kæmper mod madspild,<br> og siden 2008 har medvirket til at bringe massivt
+                        fokus på madspild i Danmark<br> samt opnået en lang række resultater i både Danmark
+                        og i samarbejde med Regeringen, EU, Norden og FN.<br><br>
+                        Vi bragte fokus på madspild i Danmark og vi bragte Danmarks kamp mod madspild
+                        på verdenskortet.<br> Danmark genererer årligt madspild på mange hundrede
+                        tusind tons - og det kæmper vi for at stoppe.</p>
+
+                    <p class="StopMadspild_text2"><i>Stop Spild Af Mad</i> har nationale og internationale
+                        samarbejder og vi bakkes op af over 60.000 danskere,<br>
+                        samt en lang række toneangivende toppolitikere og anerkendte madpersonligheder,
+                        som ikke vil finde sig i madspild.<br><br> <i>Stop Spild Af Mad</i> optræder i mange
+                        nationale og internationale medier, bl.a. på BBC og CNN.<br><br>
+                        <i>Stop Spild Af Mad</i> arbejder aktivt med realiseringen af FN’s verdensmål,<br>
+                        for bæredygtig udvikling UN Sustainable Development Goal 12.3.</p>
+                </div>
+
+                <div class="modal-footer">
+                    <h3></h3>
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
 
 
 
 <div class="takeOver_promote_box">
 
-        <div class="top_row_promote_box">
 
 
+    <div class="top_row_princip_container2">
 
-            <div class="top_row_promote_content2">
+        <div class="top_row_princip_text_box">
 
-                <p class="folg_os_button">Følg os</p>
-
-                <div class="top_row_promote_content2_space"></div>
-
-                <p class="Kontakt_button">Kontakt</p>
+            <div class="hover_effect_button">
 
 
+                <p class="omMadspild_button"><a id="myBtn"><i>&nbsp&nbspOm Stop<br> af Madspild</i></a></p>
 
-              <!--  <button class="searchButton_text" type="submit">Søg..</button> -->
+        </div>
+
+        </div>
+
+        <div class="top_row_princip_text_box">
+
+            <div class="hover_effect_button">
+
+                <p class="priser_button"><i>&nbsp&nbsp&nbsp&nbspPriser og Anerkendelser</i></p>
 
             </div>
 
-            <div class="top_row_promote_content1">
+        </div> </div>
 
-                <img class="language_button" th:src="@{images/madspild_img/index_img/english_img_edit.PNG}" src="../static/images/madspild_img/index_img/english_img_edit.PNG}">
+
+    <div class="top_row_princip_container2">
+
+        <div class="top_row_princip_text_box">
+
+            <div class="hover_effect_button">
+
+            <p class="teams_og_partnere_button"><i>&nbsp&nbsp&nbsp&nbspTeams<br> & Partnere</i></p>
+
+            </div>
+
+        </div>
+
+        <div class="top_row_princip_text_box">
+
+            <div class="hover_effect_button">
+
+                <p class="Kontakt_button"><i>&nbspKontakt info <br> -Social media</i></p>
+
+            </div>
+
+        </div> </div>
+
+    <div class="Section_line2"></div>
+
+
+    <div class="top_row_princip_container2">
+
+
+        <div class="top_row_princip_text_box">
+
+            <div class="hover_effect2_button">
+
+                <button class="searchButton_text" type="submit"><img width="50" height="50" th:src="@{images/madspild_img/index_img/searchLogo_img_edit.PNG}" src="../static/images/madspild_img/index_img/searchLogo_img_edit.PNG}">
+
+                </button>
+
+            </div>
+
+
+                <div class="hover_effect2_button">
+
+            <img class="language_button" th:src="@{images/madspild_img/index_img/english_img_edit.PNG}" src="../static/images/madspild_img/index_img/english_img_edit.PNG}">
+
+                </div>
+
+
+
+
+            <div class="hover_effect2_button">
 
                 <img class="facebook_button" th:src="@{images/madspild_img/index_img/facebook_img_edit.PNG}" src="../static/images/madspild_img/index_img/facebook_img_edit.PNG}">
 
-
             </div>
 
 
 
-        </div>
+
+        </div> </div>
+
+    <div class="Section_line3"></div>
+
+
+
+
+
+
+
 
 
 
@@ -127,11 +257,12 @@
 
         <div class="top_row_space_topnav"></div>
 
-        <a href="#om-mad-spild">Om<br> Madspild</a> <br>
-        <a href="#om-organisationen">Om<br> Organisationen</a> <br>
-        <a href="#vores-projekter">Vores<br> Projekter</a> <br>
-        <a href="#blev-aktiv">Bliv<br> Aktiv</a> <br>
-     <!--   <a href="#teams-partnere">Teams<br> & Partnere</a> -->
+        <a href="#om-mad-spild"><i>Om<br> Madspild</i></a> <br>
+        <a href="#om-organisationen"><i>Om<br> Organisationen</i></a> <br>
+        <a href="#vores-projekter"><i>Vores<br> Projekter</i></a> <br>
+        <a href="#blev-aktiv"><i>Bliv<br> Aktiv</i></a> <br>
+
+        <!--   <a href="#teams-partnere">Teams<br> & Partnere</a> -->
     </div>
 
 
@@ -186,7 +317,7 @@
 
           <div class="text">
 
-              <p class="text_slide_content_Overhead">Årligt madspild i Danmark, estimeret i %</p>
+              <p class="text_slide_content_Overhead">Årligt madspild i Danmark, estimeret i %</p><br>
               <p class="text_slide_content_Underhead">Husholdningerne: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 36 %</p>
               <p class="text_slide_content_Underhead">Detailhandlen:                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 23 %</p>
               <p class="text_slide_content_Underhead">Fødevare-industrien:          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 19 %</p>
@@ -203,8 +334,13 @@
         <!--  <div class="numbertext">3 / 3</div> -->
         <img class="slideImg" th:src="@{images/madspild_img/index_img/index_img4.PNG}"  src="../static/images/madspild_img/index_img/index_img4.PNG}"   style="width:100%">
 
-        <div class="text"><p class="text_slide_content_Overhead">Caption Four</p>
-            <p class="text_slide_content_Underhead"></p></div>
+        <div class="text"><p class="text_slide_content_Overhead">Madspild:<br>Et Globalt Problem</p><br>
+
+
+            <p class="text_slide_content_Underhead">(To Good to Go) - artikel</p>
+            <br>
+            <div class="hover_effectLink_button"><a class="togootogo_link" th:href="@{https://toogoodtogo.dk/da/movement/education/food-waste-a-global-problem}" href="https://toogoodtogo.dk/da/movement/education/food-waste-a-global-problem" target="_blank">Læs mere</a></div></div>
+
 
     </div>
 
@@ -212,8 +348,20 @@
 
 </div>
 
+<!-- Trigger/Open The Modal -->
+
+
+
+
+
+
 
  <script>
+
+     // ----------------------------------------------
+     // Slideshow ------------------------------------
+     // ----------------------------------------------
+
      let slideIndex = 0;
      showSlides();
 
@@ -231,8 +379,42 @@
          }
          slides[slideIndex-1].style.display = "block";
 
-         setTimeout(showSlides, 10000); // Change image every 8000 seconds
+         setTimeout(showSlides, 8000); // Change image every 8000 seconds
      }
+
+     // ----------------------------------------------
+     // Modal1 ------------------------------------
+     // ----------------------------------------------
+
+     // Get the modal
+     var modal = document.getElementById("myModal");
+
+     // Get the button that opens the modal
+     var btn = document.getElementById("myBtn");
+
+     // Get the <span> element that closes the modal
+     var span = document.getElementsByClassName("close")[0];
+
+     // When the user clicks the button, open the modal
+     btn.onclick = function() {
+         modal.style.display = "block";
+     }
+
+     // When the user clicks on <span> (x), close the modal
+     span.onclick = function() {
+         modal.style.display = "none";
+     }
+
+     // When the user clicks anywhere outside of the modal, close it
+     window.onclick = function(event) {
+         if (event.target == modal) {
+             modal.style.display = "none";
+         }
+     }
+
+
+
+
  </script>
 
 
@@ -241,6 +423,7 @@
 
  <footer>
 
+<p class="footer_tekst">Site by: Team getGud</p>
      <!--
      <br>
       <img class="indexPage_background_img" th:src="@{images/madspild_img/background_img.PNG}" src="../static/images/madspild_img/background_img.PNG}">
