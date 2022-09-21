@@ -1,115 +1,93 @@
 
-.index_top_row_box {
+/* ---------------------- */
+/* CONTENT STYLE - HEADER */
+/* ---------------------- */
 
+.index_top_row_box {
     display: flex;
     flex-direction: row;
     align-items: center;
-
-   /* border-color: black;
-    border-style: solid; */
-
     padding-top: 2px;
-  /*  background-color: #F5F5F5; */
-
 }
 
-
-
 .top_row_space1 {
-
     width: 75px;
+}
 
+.hover_effectLogo_button div:hover {
+    border: #C2D188 solid;
+    opacity: 0.7;
 }
 
 .top_row_logo_img_box {
-
     display: flex;
     flex-direction: column;
-
     width: 150px;
     height: 143px;
-
     background-color: black;
-
     align-items: center;
     align-self: center;
     justify-content: center;
-
     border-radius: 15px;
-
     cursor: pointer;
-
 }
 
 .rod_tekst_STOP {
-
     color: red;
     font-family: Montserrat, sans-serif;
     font-weight: bold;
     font-size: 46px;
     margin: -2px;
-
 }
 
 .hvid_tekst_SPILD_AF {
-
     color: white;
     font-family: Montserrat, sans-serif;
     font-weight: bold;
     font-size: 26px;
     margin: -2px;
-
 }
 
 .hvid_tekst_MAD {
-
     color: white;
     font-family: Montserrat, sans-serif;
     font-weight: bold;
     font-size: 50px;
     margin: -2px;
-
 }
 
 .top_row_space2 {
-
     width: 15px;
-
 }
+/* ---------------------------------------------------*/
+/* -- End section ------------------------------------*/
+
+
+
+/*--------------------------------------------*/
+/*--CONTENT STYLE - HEADER: PRINCIP Tekster --*/
+/*--------------------------------------------*/
+
 
 .top_row_princip_container1 {
     display: flex;
     flex-direction: column;
-
     padding-left: 10px;
 }
 
 .top_row_princip_container2 {
     display: flex;
     flex-direction: column;
-
     padding-left: 20px;
 }
 
 .top_row_princip_text_box {
-
     display: flex;
     flex-direction: column;
-
-
-    /* background-color: #C2D188;
-    border-radius: 15px; */
     padding: 10px;
-
-
-
-
 }
 
-
-
 .princip_headline {
-
     color: white;
     font-family: Montserrat, sans-serif;
     font-weight: bold;
@@ -117,20 +95,15 @@
     font-size: 25px;
     margin: 0px;
     padding-bottom: 15px;
-
 }
 
 .line_top {
-
     border-style: groove;
     border-color: #C2D188;
-
-
 }
 
 
 .princip_headline_text {
-
   /*  color: white; */
     color: black;
     font-family: "open sans", sans-serif;
@@ -138,691 +111,17 @@
     font-weight: bolder;
     font-size: 16px;
     margin: 0px;
-
     padding-top: 10px;
     padding-bottom: 10px;
-
 }
 
 .line_bottom {
-
     border-style: groove;
     border-color: #C2D188;
-
-
 }
+/* ---------------------------------------------------*/
+/* -- End section ------------------------------------*/
 
-
-.top_row_promote_box_spaceBetween {
-
-
-
-width: 0px;
-
-
-
-}
-
-
-.takeOver_promote_box {
-
-    display: flex;
-
-    width: 150px;
-    height: 142px;
-
-
-
-}
-
-.top_row_promote_box {
-
-
-    display: flex;
-    flex-direction: row;
-
-
-<!--
- border: lightgrey 5px double;
--->
-
-}
-
-.top_row_promote_content1 {
-
-    display: flex;
-    flex-direction: column;
-
-
-    width: 50px;
-    height: 100px;
-
-    padding-right: 10px;
-    padding-top: 10px;
-
-}
-
-.top_row_promote_content2 {
-
-    display: flex;
-    flex-direction: column;
-
-
-    display: flex;
-    align-self: center;
-    justify-content: center;
-    align-items: center;
-
-
-
-
-
-
-   width: 100px;
-    height: 100px;
-    padding-right: 10px;
-    padding-top: 10px;
-
-
-}
-
-.top_row_promote_content3 {
-
-    display: flex;
-
-    flex-direction: row;
-
-
-    height: 30px;
-
-
-/*
-    border-color: black;
-
-    border-style: double;
-
-    border-color: black;
-*/
-
-
-}
-
-.ekstra_row_box {
-
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    align-content: center;
-    align-self: center;
-    flex-direction: row;
-
-    width: 205px;
-
-
-
-
-}
-
-
-
-.language_button {
-
-
-
-    cursor: pointer;
-
-    width: 45px;
-    height: 45px;
-
-    position: relative;
-    bottom: 12px;
-    left: 10px;
-
-}
-
-
-.facebook_button {
-
-
-    background-color: royalblue;
-
-    border-radius: 10px;
-
-    cursor: pointer;
-
-    width: 55px;
-    height: 45px;
-
-    position: relative;
-    bottom: 5px;
-    left: 6px;
-
-
-
-}
-
-.top_row_promote_content2_space {
-
-width: 10px;
-
-}
-
-.folg_os_button {
-
-    display: flex;
-    align-self: center;
-    justify-content: center;
-
-    color: white;
-    background-color: cadetblue;
-    font-family: Montserrat, sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    margin: 0px;
-    padding: 10px;
-
-    width: 155px;
-
-    position: relative;
-    bottom: 15px;
-    left: 40px;
-
-
-
-    border-radius: 10px;
-
-    cursor: pointer;
-
-
-}
-
-.Kontakt_button {
-
-    display: flex;
-    align-self: center;
-    justify-content: center;
-
-    color: white;
-    background-color: cadetblue;
-    font-family: Montserrat, sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    margin: 0px;
-    padding: 10px;
-
-    width: 155px;
-
-    position: relative;
-    bottom: 15px;
-    left: 2px;
-
-
-    border-radius: 10px;
-
-    cursor: pointer;
-
-
-}
-
-.omMadspild_button {
-
-    display: flex;
-    align-self: center;
-    justify-content: center;
-    align-items: center;
-
-
-    color: white;
-    background-color: cadetblue;
-    font-family: Montserrat, sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    margin: 0px;
-    padding: 10px;
-    padding-right: -10px;
-    padding-left: -10px;
-
-    width: 155px;
-
-    position: relative;
-    bottom: 15px;
-    left: 2px;
-
-
-    border-radius: 10px;
-
-    cursor: pointer;
-
-}
-
-.priser_button {
-
-    display: flex;
-    align-self: center;
-    justify-content: center;
-
-    color: white;
-    background-color: cadetblue;
-    font-family: Montserrat, sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    margin: 0px;
-    padding: 10px;
-
-    position: relative;
-    bottom: 15px;
-    left: 2px;
-
-
-    border-radius: 10px;
-
-    cursor: pointer;
-
-
-}
-
-.teams_og_partnere_button {
-
-    display: flex;
-    align-self: center;
-    justify-content: center;
-
-    color: white;
-    background-color: cadetblue;
-    font-family: Montserrat, sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    margin: 0px;
-    padding: 10px;
-
-    width: 155px;
-
-    position: relative;
-    left: 2px;
-    bottom: 15px;
-
-
-
-    border-radius: 10px;
-
-    cursor: pointer;
-
-
-}
-
-.searchField_text {
-
-    cursor: pointer;
-
-
-}
-
-.ekstra_column_box {
-
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-
-    align-self: center;
-    align-content: center;
-    align-items: center;
-
-
-
-    width: 50px;
-    height: 130px;
-
-}
-
-.searchButton_text {
-
-    display: flex;
-    align-self: center;
-
-
-    border-radius: 10px;
-    border-color: grey;
-
-
-    margin: 0px;
-    padding: 6px;
-
-    width: 65px;
-    height: 65px;
-
-    position: relative;
-    bottom: 25px;
-
-
-
-    cursor: pointer;
-
-}
-
-.Section_line1 {
-
-    display: flex;
-    flex-direction: column;
-
-    position: relative;
-    left: 10px;
-
-    height: 150px;
-
-    border: grey 2px dotted;
-
-}
-
-
-.Section_line2 {
-
-    display: flex;
-    flex-direction: column;
-
-    position: relative;
-    left: 18px;
-
-    height: 150px;
-
-    border: grey 2px dotted;
-
-}
-
-
-.Section_line3 {
-
-    display: flex;
-    flex-direction: column;
-
-    position: relative;
-    left: 4px;
-
-    height: 150px;
-
-    border: grey 2px dotted;
-
-}
-
-
-/* -------------------------------------------------- */
-/* Top nav menu - IndexPage ------------------------- */
-/* -------------------------------------------------- */
-
-.top_row_space_topnav {
-
-    display: flex;
-    width: 20px;
-
-
-
-}
-
-
-.topnav {
-display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    overflow: hidden;
-    background-color: #C2D188;
-    font-family: Montserrat, sans-serif;
-    font-weight: bold;
-    border-radius: 5px;
-    padding-top: 10px;
-
-
-}
-
-.topnav a {
-    float: left;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    background-color: black;
-    border-radius: 15px;
-}
-
-.topnav a:hover {
-    background-color: #C2D188;
-    color: red;
-    opacity: 0.7;
-}
-
-.topnav a.active {
-    /* background-color: #04AA6D;*/
-    color: black;
-}
-
-/* ------------------------------------------------ */
-/* Slide show - IndexPage ------------------------- */
-/* ------------------------------------------------ */
-
-.slideshow_pushTop {
-
-    padding-top: 10px;
-    background-color: #C2D188;
-
-}
-
-.slideshow_background {
-
-background-color: whitesmoke;
-
-
-
-
-}
-
-* {box-sizing: border-box;}
-
-.mySlides {display: none;}
-
-
-/* Slideshow container */
-.slideshow-container {
-
-    max-width: 1020px;
-    position: relative;
-    margin: auto;
-
-}
-
-.slideText_Row_box {
-
-    display: flex;
-    flex-direction: column;
-
-    justify-content: center;
-    align-items: center;
-    align-items: center;
-    align-content: center;
-
-
-}
-
-/* Caption text */
-.text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-self: center;
-    align-items: center;
-    align-content: center;
-
-
-
-    margin: 0;
-    position: absolute;
-    bottom: 30px;
-    left: 250px;
-
-    text-align: center;
-    background-color: whitesmoke;
-    opacity: 0.8;
-    border-radius: 15px;
-
-    width: 575px;
-    height: 325px;
-}
-
-.text_slide_content_Overhead {
-
-    color: black;
-    font-size: 35px;
-    font-weight: bold;
-    font-family: Montserrat, sans-serif;
-    opacity: 1.0;
-    margin: 0;
-
-}
-
-.text_slide_content_Underhead {
-
-    color: black;
-    font-size: 25px;
-    font-style: italic;
-    font-family: "open sans", sans-serif;
-    margin: 0;
-
-}
-
-
-
-
-/* Number text (1/3 etc) */
-.numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-
-.active {
-    background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-    .text {font-size: 11px}
-}
-
-.slideImg {
-
-    opacity: 0.7;
-
-
-
-}
-
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-    align-content: center;
-
-    background-color: #C2D188;
-    width: 100%;
-    height: 40px;
-    border-radius: 5px;
-
-}
-
-.footer_tekst {
-
-    font-family: "open sans", sans-serif;
-    font-weight: bold;
-    font-style: italic;
-    font-size: 15px;
-
-}
-
-.hover_effect_button p:hover {
-
-
-background-color: black;
-
-
-    color: red;
-
-    opacity: 0.7;
-
-}
-
-.hover_effect2_button img:hover {
-
-
-
-    border: #C2D188 solid;
-
-    opacity: 0.7;
-
-}
-
-
-.hover_effectLogo_button div:hover {
-
-    border: #C2D188 solid;
-
-    opacity: 0.7;
-
-}
-
-.togootogo_link {
-
-    text-decoration: none;
-    cursor: pointer;
-
-    background-color: #C2D188;
-    width: 200px;
-    height: 150px;
-
-    font-family: "open sans";
-    font-size: 30px;
-    font-weight: bold;
-    padding: 5px;
-
-    border-radius: 5px;
-
-color: black;
-
-}
-
-
-.hover_effectLink_button a:hover {
-
-    border: black solid;
-
-    opacity: 0.7;
-
-
-
-}
 
 /* -------------------------------------------------------- */
 /* Modal box style ---------------------------------------- */
@@ -830,8 +129,9 @@ color: black;
 
 
 /* -------------------------------------------------------- */
-/* Modal box Om Stop af Madspild ---------------------------------------- */
+/* Modal box Om Stop af Madspild -------------------------- */
 /* -------------------------------------------------------- */
+
 
 /* The Modal (background) */
 .modal {
@@ -897,12 +197,8 @@ color: black;
 }
 
 .modal-body {
-
     padding: 2px 16px;
-
     border-radius: 15px;
-
-
 }
 
 .modal-footer {
@@ -911,28 +207,412 @@ color: black;
     color: white;
 }
 
+.Modal_omMadspild_img_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-self: center;
+    align-items: center;
+}
 
 .StopMadspild_text1 {
-
     font-family: "open sans";
-
     font-size: 20px;
     font-weight: lighter;
-
-
-
 }
 
 .StopMadspild_text2{
-
     font-family: "open sans";
-
     font-size: 20px;
     font-weight: lighter;
-
-
-
 }
+/* ---------------------------------------------------*/
+/* -- End section ------------------------------------*/
+
+
+/*------------------------------------*/
+/*--CONTENT STYLE - Header Knapper ---*/
+/*------------------------------------*/
+
+.Section_line1 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 10px;
+    height: 150px;
+    border: grey 2px dotted;
+}
+
+.takeOver_promote_box {
+    display: flex;
+    width: 150px;
+    height: 142px;
+}
+
+.top_column_promote_container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.top_column_promote_text_box {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.hover_effect_button p:hover {
+    background-color: black;
+    color: red;
+    opacity: 0.7;
+}
+
+.omMadspild_button {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: cadetblue;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px;
+    padding: 10px;
+    padding-right: -10px;
+    padding-left: -10px;
+    width: 155px;
+    position: relative;
+    bottom: 15px;
+    left: 2px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.priser_button {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    color: white;
+    background-color: cadetblue;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px;
+    padding: 10px;
+    position: relative;
+    bottom: 15px;
+    left: 2px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.teams_og_partnere_button {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    color: white;
+    background-color: cadetblue;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px;
+    padding: 10px;
+    width: 155px;
+    position: relative;
+    left: 2px;
+    bottom: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.Kontakt_button {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    color: white;
+    background-color: cadetblue;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px;
+    padding: 10px;
+    width: 155px;
+    position: relative;
+    bottom: 15px;
+    left: 2px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.Section_line2 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 18px;
+    height: 150px;
+    border: grey 2px dotted;
+}
+
+.hover_effect2_button img:hover {
+    border: #C2D188 solid;
+    opacity: 0.7;
+}
+
+.searchButton_text {
+    display: flex;
+    align-self: center;
+    border-radius: 10px;
+    border-color: grey;
+    margin: 0px;
+    padding: 6px;
+    width: 65px;
+    height: 65px;
+    position: relative;
+    bottom: 25px;
+    cursor: pointer;
+}
+
+
+.language_button {
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+    position: relative;
+    bottom: 12px;
+    left: 10px;
+}
+
+
+.facebook_button {
+    background-color: royalblue;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 55px;
+    height: 45px;
+    position: relative;
+    bottom: 5px;
+    left: 6px;
+}
+
+.Section_line3 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 4px;
+    height: 150px;
+    border: grey 2px dotted;
+}
+/* ---------------------------------------------------*/
+/* -- End section ------------------------------------*/
+
+
+/* -------------------------------------------------- */
+/* Top nav menu - IndexPage ------------------------- */
+/* -------------------------------------------------- */
+
+.topnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+    background-color: #C2D188;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+
+
+.top_row_space_topnav {
+    display: flex;
+    width: 20px;
+}
+
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    background-color: black;
+    border-radius: 15px;
+}
+
+.topnav a:hover {
+    background-color: #C2D188;
+    color: red;
+    opacity: 0.7;
+}
+
+.topnav a.active {
+    /* background-color: #04AA6D;*/
+    color: black;
+}
+
+/* ---------------------------------------------------*/
+/* -- End section ------------------------------------*/
+
+
+/* Javascript CONTENT ------------------------------*/
+/* ------------------------------------------------ */
+/* Slide show - IndexPage ------------------------- */
+/* ------------------------------------------------ */
+
+.slideshow_pushTop {
+    padding-top: 10px;
+    background-color: #C2D188;
+}
+
+.slideshow_background {
+background-color: whitesmoke;
+}
+
+* {box-sizing: border-box;}
+.mySlides {display: none;}
+
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1020px;
+    position: relative;
+    margin: auto;
+}
+
+
+.slideImg {
+    opacity: 0.7;
+}
+
+
+/* Caption text */
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    margin: 0;
+    position: absolute;
+    bottom: 30px;
+    left: 250px;
+    text-align: center;
+    background-color: whitesmoke;
+    opacity: 0.8;
+    border-radius: 15px;
+    width: 575px;
+    height: 325px;
+}
+
+.text_slide_content_Overhead {
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Montserrat, sans-serif;
+    opacity: 1.0;
+    margin: 0;
+}
+
+.text_slide_content_Underhead {
+    color: black;
+    font-size: 25px;
+    font-style: italic;
+    font-family: "open sans", sans-serif;
+    margin: 0;
+}
+
+.active {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+}
+
+.slideImg {
+    opacity: 0.7;
+}
+
+.togootogo_link {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #C2D188;
+    width: 200px;
+    height: 150px;
+    font-family: "open sans";
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+}
+
+
+.hover_effectLink_button a:hover {
+    border: black solid;
+    opacity: 0.7;
+}
+
+/* ---------------------------------------------------*/
+/* -- End section ------------------------------------*/
+
+
+
+/* ------------------------------------------------ */
+/* CONTENT STYLE - FOOTER ------------------------- */
+/* ------------------------------------------------ */
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+
+    background-color: #C2D188;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.footer_tekst {
+    font-family: "open sans", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 15px;
+}
+
+
+/* ---------------------------------------------------*/
+/* -- End section ------------------------------------*/
+
+
+/* -----------------------------------------------------------------------*/
+/* -- COMPLETE STYLE END - Index.html ------------------------------------*/
+/* -----------------------------------------------------------------------*/
+
+
+
+
+
 
 
 

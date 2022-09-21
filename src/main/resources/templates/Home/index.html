@@ -4,52 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" th:href="@{css/style.css}" href="../static/css/style.css">
-
-
-
-
     <title>Danmark mod Madspild</title>
-
 </head>
 
-<header>
+<!-- ---------------- --> <!---------------------------------------------------------------->
+<!--  CONTENT: HEADER --> <!---------------------------------------------------------------->
+<!-- ---------------- --> <!---------------------------------------------------------------->
 
-    <div class ="index_top_row_box">
+    <header>
 
-        <div class="top_row_space1"></div>
+    <!---------------->
+    <!--LOGO Content-->
+    <!---------------->
 
-        <div class="hover_effectLogo_button">
+    <div class ="index_top_row_box">           <!-- Header main flexbox - Samler alt i en kasse/box.  -->
 
+        <div class="top_row_space1"></div>     <!-- Giver 75px width space, fra Logo, venstre side.  -->
+
+        <div class="hover_effectLogo_button">  <!-- Mouse cursor hover - Laver en opacity og border effekt.  -->
+
+            <!-- Content til Logo  -->
         <div class="top_row_logo_img_box">
             <p class="rod_tekst_STOP">STOP</p>
             <p class="hvid_tekst_SPILD_AF">SPILD AF</p>
             <p class="hvid_tekst_MAD">MAD</p>
+        </div>
 
         </div>
 
-          <!-- <img th:src="@{images/madspild_img/logo_img.PNG}" src="../static/images/madspild_img/logo_img.PNG}"> -->
-        </div>
+        <div class="top_row_space2"></div>     <!-- Giver 15px width space, fra logo højre side.  -->
 
-        <div class="top_row_space2"></div>
+        <!------------------------------------------------------------------------------------------->
+        <!------------------------------------------------------------------------------------------->
+        <!-- End section -->
 
 
-        <div class="top_row_princip_container1">
 
-        <div class="top_row_princip_text_box">
+        <!---------------------------->
+        <!--CONTENT: PRINCIP tekster-->
+        <!---------------------------->
 
-          <!--  <h4 class="princip_headline">Stop Spild Af Mad</h4> -->
+        <!----------------------------------->
+        <!--Venstre Princip box Content------>
+        <!--Både Top og Bund tekst Content -->
+        <!----------------------------------->
 
-            <div class="line_top"></div>
+        <!-- "Vi er Danmarks største bevægelse mod madspild." = Text Box Section -->
+
+        <div class="top_row_princip_container1"> <!-- Flexbox: Samler headlines "Princip tekst" i en kasse - Højre side box -->
+                                                 <!-- Venstre box med top tekst: "Vi er Danmarks støreste..... -->
+                                                 <!-- Venstre box med bund tekst: "Vi har igangsat kampen..... -->
+
+        <div class="top_row_princip_text_box">   <!-- Samler den ene top tekst box: "Vi er Danmarks største... --->
+
+            <div class="line_top"></div>         <!-- Øverste grønne linje -->
 
             <p class="princip_headline_text">Vi er Danmarks største<br> bevægelse mod madspild.</p>
 
-            <div class="line_bottom"></div>
+            <div class="line_bottom"></div>      <!-- Nederste grønne linje -->
 
         </div>
 
-        <div class="top_row_princip_text_box">
+            <!-- "Vi har igangsat kampen mod madspild i Danmark." = Text Box Section -->
 
-            <!--  <h4 class="princip_headline">Stop Spild Af Mad</h4> -->
+        <div class="top_row_princip_text_box">    <!-- Gentager samme proces, som forklaret ovenover. -->
 
             <div class="line_top"></div>
 
@@ -59,55 +77,70 @@
 
         </div> </div>
 
+        <!----------------------------------->
+        <!--Højre Princip box CONTENT-------->
+        <!--Både Top og Bund tekst CONTENT -->
+        <!----------------------------------->
 
+        <!-- "Vi bragte Danmarks kamp<br> mod madspild på verdenskortet." = Text Box Section -->
 
-        <div class="top_row_princip_container2">
+        <div class="top_row_princip_container2">  <!-- Flexbox: Samler headlines "Princip tekst" i en kasse - Venstre side box -->
+                                                 <!-- Højre box med top tekst: "Vi bragte Danmarks kamp..... -->
+                                                 <!-- Højre box med bund tekst: "Over 60.000 danskere..... -->
 
-        <div class="top_row_princip_text_box">
+        <div class="top_row_princip_text_box">   <!-- Samler den ene top tekst box: "Vi er Danmarks største... --->
 
-            <!--  <h4 class="princip_headline">Stop Spild Af Mad</h4> -->
-
-            <div class="line_top"></div>
+            <div class="line_top"></div>         <!-- Øverste grønne linje -->
 
             <p class="princip_headline_text">
                 Vi bragte Danmarks kamp<br> mod madspild på verdenskortet.</p>
 
-            <div class="line_bottom"></div>
+            <div class="line_bottom"></div>      <!-- Nederste grønne linje -->
 
         </div>
 
+            <!-- "Over 60.000 danskere siger nej til madspild." = Text Box Section -->
 
-
-
-        <div class="top_row_princip_text_box">
+        <div class="top_row_princip_text_box">   <!-- Gentager samme proces, som forklaret ovenover. -->
 
             <div class="line_top"></div>
 
             <p class="princip_headline_text">Over 60.000 danskere<br> siger nej til madspild. </p>
 
-
             <div class="line_bottom"></div>
 
         </div> </div>
 
-        <div class="Section_line1"></div>
+        <!---------------------------------------------------------------------------------------------->
+        <!---------------------------------------------------------------------------------------------->
+        <!-- End section -->
 
 
-        <!----------------------------------------------------------- -->
-        <!-- Modal windows sections: --------------------------------- -->
-        <!----------------------------------------------------------- -->
 
-        <!-- The Modal - Om Stop af Madspild. -->
-        <div id="myModal" class="modal">
+        <!---------------------------------------------------------------------->
+        <!-- CONTENT: Modal Windows Sections: ---------------------------------->
+        <!---------------------------------------------------------------------->
+        <!-- Pop-up vinduerne indhold ------------------------------------------>
+        <!---------------------------------------------------------------------->
+
+
+        <div class="Section_line1"></div>  <!-- En grå prikket linje, som adskiller teksterne fra knapperne -->
+
+
+        <!-- The Modal - Om Stop af Madspild knappen. -->
+
+        <div id="myModal" class="modal">          <!-- Modal knap referencen - Selve knappen skabelse -->
 
             <!-- Modal content -->
-            <div class="modal-content">
+            <div class="modal-content">           <!-- Modal knappen indhold/content -->
 
-                <div class="modal-header">
-                    <span class="close">&times;</span>
+                <div class="modal-header">        <!-- Modal knap header content -->
+                    <span class="close">&times;</span>  <!-- Modal header X (Exit) knap -->
 
                     <i><h1>Om Stop af Madspild:</h1></i>
                 </div>
+
+                <!-- Modal body Content -->
 
                 <div class="modal-body">
                     <p class="StopMadspild_text1"><b>Vi er Danmarks største bevægelse mod madspild.</b><br><br>
@@ -128,161 +161,201 @@
                         for bæredygtig udvikling UN Sustainable Development Goal 12.3.</p>
                 </div>
 
+                <!-- Modal knap - Billeder Content -->
+
+                <div class="Modal_omMadspild_img_box">
+                    <img class="modal_OmMadspild_img"  th:src="@{images/madspild_img/SD_img.PNG}" src="../static/images/madspild_img/SD_img}">
+                    <img class="modal_OmMadspild_img"  th:src="@{images/madspild_img/Goals_img.PNG}" src="../static/images/madspild_img/Goals_img.PNG}">
+                    <a class="12_img_link" th:href="@{https://sdgs.un.org/goals/goal12}" target="_blank"><img class="modal_OmMadspild_img" th:src="@{images/madspild_img/12_img.PNG}" src="../static/images/madspild_img/12_img.PNG}"></a>
+                </div>
+
+                <!-- Modal knap - footer Content -->
+
                 <div class="modal-footer">
                     <h3></h3>
-
-                </div>
-            </div>
-
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="takeOver_promote_box">
-
-
-
-    <div class="top_row_princip_container2">
-
-        <div class="top_row_princip_text_box">
-
-            <div class="hover_effect_button">
-
-
-                <p class="omMadspild_button"><a id="myBtn"><i>&nbsp&nbspOm Stop<br> af Madspild</i></a></p>
-
-        </div>
-
-        </div>
-
-        <div class="top_row_princip_text_box">
-
-            <div class="hover_effect_button">
-
-                <p class="priser_button"><i>&nbsp&nbsp&nbsp&nbspPriser og Anerkendelser</i></p>
-
-            </div>
-
-        </div> </div>
-
-
-    <div class="top_row_princip_container2">
-
-        <div class="top_row_princip_text_box">
-
-            <div class="hover_effect_button">
-
-            <p class="teams_og_partnere_button"><i>&nbsp&nbsp&nbsp&nbspTeams<br> & Partnere</i></p>
-
-            </div>
-
-        </div>
-
-        <div class="top_row_princip_text_box">
-
-            <div class="hover_effect_button">
-
-                <p class="Kontakt_button"><i>&nbspKontakt info <br> -Social media</i></p>
-
-            </div>
-
-        </div> </div>
-
-    <div class="Section_line2"></div>
-
-
-    <div class="top_row_princip_container2">
-
-
-        <div class="top_row_princip_text_box">
-
-            <div class="hover_effect2_button">
-
-                <button class="searchButton_text" type="submit"><img width="50" height="50" th:src="@{images/madspild_img/index_img/searchLogo_img_edit.PNG}" src="../static/images/madspild_img/index_img/searchLogo_img_edit.PNG}">
-
-                </button>
-
-            </div>
-
-
-                <div class="hover_effect2_button">
-
-            <img class="language_button" th:src="@{images/madspild_img/index_img/english_img_edit.PNG}" src="../static/images/madspild_img/index_img/english_img_edit.PNG}">
-
                 </div>
 
+            </div>
+        </div>
+
+        <!---------------------------------------------------------------------------------------------->
+        <!---------------------------------------------------------------------------------------------->
+        <!-- End section -->
 
 
 
-            <div class="hover_effect2_button">
+        <!-------------------------------------------------------------------------------------------------->
+        <!--CONTENT - HEADER Knapper = "Om Stop / Teams / Priser / Kontakt / Search / Language / Facebook -->
+        <!-------------------------------------------------------------------------------------------------->
 
-                <img class="facebook_button" th:src="@{images/madspild_img/index_img/facebook_img_edit.PNG}" src="../static/images/madspild_img/index_img/facebook_img_edit.PNG}">
+    <div class="takeOver_promote_box">      <!-- Flexbox: Samler alle knapperne i en hel kasse/box -->
+                                            <!-- ( Om Stop... / Teams... / Priser... / Kontakt... / Search / Language / Facebook ) -->
+
+        <!-- takeoOver_promote_box var et panisk forsøg, at kæde ting sammen, så dens width & height er ikke effektive. -->
+        <!-- Men vil ikke fjerne div boxen, siden sitet fungere optimalt. -->
+
+
+        <!----------------------------------------->
+        <!--Venstre Knappe box CONTENT------------->
+        <!--Både Om Stop... og Priser... CONTENT -->
+        <!----------------------------------------->        <!-- &nbsp = Skaber mellem-rum i HTML sektionen -->
+
+        <!-- "Om Stop af Madspild" - Button Box Section -->
+
+           <div class="top_column_promote_container">       <!-- Flexbox: Omkring Knapperne - ( Om Stop... / Priser... ) -->
+
+               <div class="top_column_promote_text_box">    <!-- Teksten inde i knappen: "Om Stop af Madspild" -->
+
+                   <div class="hover_effect_button">        <!-- Hover effekten på alle header knapperne -->
+
+                       <p class="omMadspild_button"><a id="myBtn"><i>&nbsp&nbspOm Stop<br> af Madspild</i></a></p>
+
+               </div> </div>
+
+               <!-- "Priser og Anerkendelser" - Button Box Section -->
+
+               <div class="top_column_promote_text_box">    <!-- Teksten inde i knappen: "Priser og Anerkendelser" -->
+
+                   <div class="hover_effect_button">        <!-- Hover effekten på alle header knapperne -->
+
+                       <p class="priser_button"><i>&nbsp&nbsp&nbsp&nbspPriser og Anerkendelser</i></p>
+
+                   </div>
+
+               </div> </div>
+
+
+        <!----------------------------------------->
+        <!--Højre Knappe box CONTENT--------------->
+        <!--Både Teams... og Kontakt... CONTENT --->
+        <!----------------------------------------->
+
+        <!-- "Teams & Partnere" - Button Box Section -->
+
+           <div class="top_column_promote_container">       <!-- Flexbox: Omkring Knapperne - ( Teams... / Kontakt... ) -->
+
+               <div class="top_column_promote_text_box">    <!-- Teksten inde i knappen: "Teams & Partnere" -->
+
+                   <div class="hover_effect_button">        <!-- Hover effekten på alle header knapperne -->
+
+                   <p class="teams_og_partnere_button"><i>&nbsp&nbsp&nbsp&nbspTeams<br> & Partnere</i></p>
+
+                   </div>
+
+               </div>
+
+               <!-- "Kontakt info -Social Media" - Button Box Section -->
+
+               <div class="top_column_promote_text_box">   <!-- Teksten inde i knappen: "Kontakt info -Social media" -->
+
+                   <div class="hover_effect_button">       <!-- Hover effekten på alle header knapperne -->
+
+                       <p class="Kontakt_button"><i>&nbspKontakt info <br> -Social media</i></p>
+
+                   </div>
+
+               </div> </div>
+
+
+           <div class="Section_line2"></div>      <!-- En grå prikket linje, som adskiller venstre knapper, til højre knapper -->
+
+
+        <!------------------------------------------------------------->
+        <!--Search / Language / Facebook knapper CONTENT--------------->
+        <!------------------------------------------------------------->
+
+        <!-- "Search" - Button Box Section -->
+
+           <div class="top_column_promote_container">       <!-- Flexbox: Omkring Knapperne - ( Search / Language / Facebook ) -->
+
+               <div class="top_column_promote_text_box">    <!-- Teksten inde i knappen: "Kontakt info -Social media" -->
+
+                   <div class="hover_effect2_button">       <!-- Hover2 effekten på alle knapperne i den her sektion -->
+
+                       <button class="searchButton_text" type="submit"><img width="50" height="50" th:src="@{images/madspild_img/index_img/searchLogo_img_edit.PNG}" src="../static/images/madspild_img/index_img/searchLogo_img_edit.PNG}">
+
+                       </button>
+
+                   </div>
+
+                   <!-- "Language" - Button Box Section -->
+
+                   <div class="hover_effect2_button">   <!-- Hover2 effekten på alle knapperne i den her sektion -->
+
+                   <img class="language_button" th:src="@{images/madspild_img/index_img/english_img_edit.PNG}" src="../static/images/madspild_img/index_img/english_img_edit.PNG}">
+
+                       </div>
+
+                   <!-- "Facebook" - Button Box Section -->
+
+                   <div class="hover_effect2_button">       <!-- Hover2 effekten på alle knapperne i den her sektion -->
+
+                       <img class="facebook_button" th:src="@{images/madspild_img/index_img/facebook_img_edit.PNG}" src="../static/images/madspild_img/index_img/facebook_img_edit.PNG}">
+
+                   </div>
+
+               </div> </div>
+
+           <div class="Section_line3"></div>  <!-- En grå prikket linje, som afslutter HEADER CONTENT -->
+
+
+    </div> </div>
+
+        <!---------------------------------------------------------------------------------------------->
+        <!---------------------------------------------------------------------------------------------->
+        <!-- End section -->
+
+
+        <!-- ---------------- --> <!---------------------------------------------------------------------->
+        <!--  CONTENT: TOP NAV MENU --> <!---------------------------------------------------------------->
+        <!-- ---------------- --> <!---------------------------------------------------------------------->
+
+           <br>  <!-- Line break - Skubber et trin ned på layouttet -->
+
+           <div class="topnav">
+
+               <div class="top_row_space_topnav"></div>
+
+               <a href="#om-mad-spild"><i>Om<br> Madspild</i></a> <br>
+               <a href="#om-organisationen"><i>Om<br> Organisationen</i></a> <br>
+               <a href="#vores-projekter"><i>Vores<br> Projekter</i></a> <br>
+               <a href="#blev-aktiv"><i>Bliv<br> Aktiv</i></a> <br>
 
             </div>
-
-
-
-
-        </div> </div>
-
-    <div class="Section_line3"></div>
-
-
-
-
-
-
-
-
-
-
-</div>
-
-
-    </div>
-
-    <br>
-
-    <div class="topnav">
-
-        <div class="top_row_space_topnav"></div>
-
-        <a href="#om-mad-spild"><i>Om<br> Madspild</i></a> <br>
-        <a href="#om-organisationen"><i>Om<br> Organisationen</i></a> <br>
-        <a href="#vores-projekter"><i>Vores<br> Projekter</i></a> <br>
-        <a href="#blev-aktiv"><i>Bliv<br> Aktiv</i></a> <br>
-
-        <!--   <a href="#teams-partnere">Teams<br> & Partnere</a> -->
-    </div>
-
-
 
 </header>
 
+<!---------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------------------->
+<!-- End section - CONTENT HEADER -->
+
+
+
+<!-- ---------------- --> <!---------------------------------------------------------------------->
+<!--  CONTENT: BODY --> <!------------------------------------------------------------------------>
+<!-- ---------------- --> <!---------------------------------------------------------------------->
+
+
+<!---------------------------->
+<!--CONTENT: PRINCIP tekster-->
+<!---------------------------->
+
 <body>
 
-<div class="slideshow_pushTop"></div>
+<div class="slideshow_pushTop"></div>   <!-- Skubber 10px toppen op ad -->
 
-<br>
+<br>  <!-- Line break - Skubber et trin ned på layouttet -->
 
-<div class="slideshow_background">
+<div class="slideshow_background">      <!-- Skaber en let whitesmoke farvet baggrund bag sliderne -->
 
-<div class="slideshow-container">
+<div class="slideshow-container">       <!-- Slideshow container CONTENT -->
+
+
+    <!-- Slideshow window 1 CONTENT - 200+ / 7.000+ --> <!-- -------------------------------------------------->
 
     <div class="mySlides fade">
-      <!--  <div class="numbertext">1 / 3</div> -->
-        <img class="slideImg" th:src="@{images/madspild_img/index_img/index_img1_v2.PNG}" src="../static/images/madspild_img/index_img/index_img1_v2.PNG}"  style="width:100%">
 
+        <img class="slideImg" th:src="@{images/madspild_img/index_img/index_img1_v2.PNG}" src="../static/images/madspild_img/index_img/index_img1_v2.PNG}"  style="width:100%">
 
         <div class="text">
             <p class="text_slide_content_Overhead">200+</p>
@@ -291,13 +364,13 @@
             <p class="text_slide_content_Overhead">7.000+</p>
             <p class="text_slide_content_Underhead">Danske og internationale<br> medie-omtaler siden 2008</p>
 
-        </div>
+        </div> </div>
 
 
-    </div>
+    <!-- Slideshow window 2 CONTENT - 300+ / 105.000+  --> <!-- -------------------------------------------------->
 
     <div class="mySlides fade">
-        <!--  <div class="numbertext">2 / 3</div> -->
+
           <img class="slideImg" th:src="@{images/madspild_img/index_img/index_img2.PNG}" src="../static/images/madspild_img/index_img/index_img2.PNG}" style="width:100%">
 
         <div class="text">
@@ -307,12 +380,13 @@
             <p class="text_slide_content_Overhead">105.000+</p>
             <p class="text_slide_content_Underhead">Følgere på samlede<br> sociale medier</p>
 
-        </div>
+        </div> </div>
 
-      </div>
+
+    <!-- Slideshow window 3 CONTENT  --> <!-- -------------------------------------------------->
 
       <div class="mySlides fade">
-          <!--  <div class="numbertext">3 / 3</div> -->
+
             <img class="slideImg" th:src="@{images/madspild_img/index_img/index_img3.PNG}"  src="../static/images/madspild_img/index_img/index_img3.PNG}"   style="width:100%">
 
           <div class="text">
@@ -325,13 +399,13 @@
               <p class="text_slide_content_Underhead">Institutioner og storkøkkener: 4 %</p>
               <p class="text_slide_content_Underhead">Hoteller og restauranter:      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 4 %</p>
 
+          </div> </div>
 
-          </div>
 
-        </div>
+    <!-- Slideshow window 4 CONTENT  --> <!-- -------------------------------------------------->
 
     <div class="mySlides fade">
-        <!--  <div class="numbertext">3 / 3</div> -->
+
         <img class="slideImg" th:src="@{images/madspild_img/index_img/index_img4.PNG}"  src="../static/images/madspild_img/index_img/index_img4.PNG}"   style="width:100%">
 
         <div class="text"><p class="text_slide_content_Overhead">Madspild:<br>Et Globalt Problem</p><br>
@@ -341,26 +415,19 @@
             <br>
             <div class="hover_effectLink_button"><a class="togootogo_link" th:href="@{https://toogoodtogo.dk/da/movement/education/food-waste-a-global-problem}" href="https://toogoodtogo.dk/da/movement/education/food-waste-a-global-problem" target="_blank">Læs mere</a></div></div>
 
+    </div> </div> </div>
 
-    </div>
-
-    </div>
-
-</div>
-
-<!-- Trigger/Open The Modal -->
+<!---------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------------------->
+<!-- End section - CONTENT BODY -->
 
 
+ <script>   // Javascript CONTENT
 
 
-
-
-
- <script>
-
-     // ----------------------------------------------
-     // Slideshow ------------------------------------
-     // ----------------------------------------------
+     // ---------------------------------------------------------------
+     // Slideshow script - CONTENT ------------------------------------
+     // ---------------------------------------------------------------
 
      let slideIndex = 0;
      showSlides();
@@ -382,9 +449,9 @@
          setTimeout(showSlides, 8000); // Change image every 8000 seconds
      }
 
-     // ----------------------------------------------
-     // Modal1 ------------------------------------
-     // ----------------------------------------------
+     // ---------------------------------------------------------------------
+     // Modal - Om Stop af Madspild knap ------------------------------------
+     // ---------------------------------------------------------------------
 
      // Get the modal
      var modal = document.getElementById("myModal");
@@ -412,25 +479,14 @@
          }
      }
 
-
-
-
  </script>
-
-
 
     </body>
 
  <footer>
 
-<p class="footer_tekst">Site by: Team getGud</p>
-     <!--
-     <br>
-      <img class="indexPage_background_img" th:src="@{images/madspild_img/background_img.PNG}" src="../static/images/madspild_img/background_img.PNG}">
- -->
+<p class="footer_tekst">Site by: Team getGood</p>
 
 </footer>
-
-
 
    </html>
