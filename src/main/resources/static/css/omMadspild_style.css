@@ -1,10 +1,32 @@
 /* -------------------------------------------------------- */
-/* Modal box style ---------------------------------------- */
+/* Om Madspild Modal Box Styles --------------------------- */
 /* -------------------------------------------------------- */
 
 
+/* Rows&Columns 2x2 */
+.flexbox_modal {
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+/* Opacity Animation */
+@-webkit-keyframes animateOpacity {
+    from {opacity:0}
+    to {opacity:1}
+}
+
+@keyframes animateOpacity {
+    from {opacity:0}
+    to {opacity:1}
+}
+
+
+
 /* -------------------------------------------------------- */
-/* Modal box Om Madspild -------------------------- */
+/* Modal Box 2 - Madspil i Verden -------------------------- */
 /* -------------------------------------------------------- */
 
 /* The Modal (Container) */
@@ -13,12 +35,21 @@
     flex-direction: column;
     padding-left: 20px;
 }
+
+/* The Modal (tekst) */
+.top_column_promote_text_box2 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
 /* The Modal (Button) */
-.modal_omMadspild_popUpButtonFrame_ID_Button {
+.omMadspild_button2 {
     display: flex;
     align-self: center;
     justify-content: center;
     align-items: center;
+    text-align: center;
     color: white;
     background-color: lightpink;
     font-family: Montserrat, sans-serif;
@@ -26,18 +57,14 @@
     font-size: 50px;
     margin: 0px;
     padding: 10px;
-    padding-right: -10px;
-    padding-left: -10px;
-    width: 155px;
+    width: 550px;
     position: relative;
-    bottom: 15px;
-    left: 2px;
     border-radius: 10px;
     cursor: pointer;
 }
 
 /* The Modal (background) */
-.modal_omMadspild_popUpButtonFrame_Modal {
+.modal2 {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
@@ -61,21 +88,10 @@
     border: 1px solid #888;
     width: 80%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-    -webkit-animation-name: animatetop;
+    -webkit-animation-name: animateOpacity;
     -webkit-animation-duration: 0.4s;
-    animation-name: animatetop;
+    animation-name: animateOpacity;
     animation-duration: 0.4s
-}
-
-/* Add Animation */
-@-webkit-keyframes animatetop2 {
-    from {top:-300px; opacity:0}
-    to {top:0; opacity:1}
-}
-
-@keyframes animatetop2 {
-    from {top:-300px; opacity:0}
-    to {top:0; opacity:1}
 }
 
 /* The Close Button */
@@ -119,21 +135,394 @@
 }
 
 .StopMadspild_text1_2 {
-    font-family: "open sans";
+    font-family: "open sans", sans-serif;
     font-size: 20px;
     font-weight: lighter;
 }
 
-.StopMadspild_text2_2{
-    font-family: "open sans";
+.StopMadspild_text2_2 {
+    font-family: "open sans", sans-serif;
     font-size: 20px;
     font-weight: lighter;
 }
+
 /* ---------------------------------------------------*/
 /* -- End section ------------------------------------*/
 
-.top_column_promote_text_box2 {
+
+
+/* -------------------------------------------------------- */
+/* Modal Box 3 - Madspil & Klima -------------------------- */
+/* -------------------------------------------------------- */
+
+/* The Modal (Container) */
+.top_column_promote_container3 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+/* The Modal (tekst) */
+.top_column_promote_text_box3 {
     display: flex;
     flex-direction: column;
     padding: 10px;
 }
+
+/* The Modal (Button) */
+.omMadspild_button3 {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: lightpink;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0px;
+    padding: 10px;
+    width: 550px;
+    position: relative;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* The Modal (background) */
+.modal3 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
+}
+
+/* Modal Content */
+.modal-content3 {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animateOpacity;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animateOpacity;
+    animation-duration: 0.4s
+}
+
+/* The Close Button */
+.close3 {
+    color: black;
+    float: right;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.close3:hover,
+.close3:focus {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header3 {
+    padding: 2px 16px;
+    background-color: #C2D188;
+    color: black;
+}
+
+.modal-body3 {
+    padding: 2px 16px;
+    border-radius: 15px;
+}
+
+.modal-footer3 {
+    padding: 2px 16px;
+    background-color: white;
+    color: white;
+}
+
+.Modal_omMadspild_img_box3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-self: center;
+    align-items: center;
+}
+
+.StopMadspild_text1_3 {
+    font-family: "open sans", sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.StopMadspild_text2_3 {
+    font-family: "open sans", sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+/* ---------------------------------------------------*/
+/* -- End section ------------------------------------*/
+
+
+
+/* -------------------------------------------------------- */
+/* Modal Box 4 - Hvad kan du Gøre -------------------------- */
+/* -------------------------------------------------------- */
+
+/* The Modal (Container) */
+.top_column_promote_container4 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+/* The Modal (tekst) */
+.top_column_promote_text_box4 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+/* The Modal (Button) */
+.omMadspild_button4 {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: lightpink;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0px;
+    padding: 10px;
+    width: 550px;
+    position: relative;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* The Modal (background) */
+.modal4 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
+}
+
+/* Modal Content */
+.modal-content4 {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animateOpacity;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animateOpacity;
+    animation-duration: 0.4s
+}
+
+/* The Close Button */
+.close4 {
+    color: black;
+    float: right;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.close4:hover,
+.close4:focus {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header4 {
+    padding: 2px 16px;
+    background-color: #C2D188;
+    color: black;
+}
+
+.modal-body4 {
+    padding: 2px 16px;
+    border-radius: 15px;
+}
+
+.modal-footer4 {
+    padding: 2px 16px;
+    background-color: white;
+    color: white;
+}
+
+.Modal_omMadspild_img_box4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-self: center;
+    align-items: center;
+}
+
+.StopMadspild_text1_4 {
+    font-family: "open sans", sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.StopMadspild_text2_4 {
+    font-family: "open sans", sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+/* ---------------------------------------------------*/
+/* -- End section ------------------------------------*/
+
+
+
+/* -------------------------------------------------------- */
+/* Modal Box 5 - Madspild i Tal -------------------------- */
+/* -------------------------------------------------------- */
+
+/* The Modal (Container) */
+.top_column_promote_container5 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+/* The Modal (tekst) */
+.top_column_promote_text_box5 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+/* The Modal (Button) */
+.omMadspild_button5 {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: lightpink;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0px;
+    padding: 10px;
+    width: 550px;
+    position: relative;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* The Modal (background) */
+.modal5 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
+}
+
+/* Modal Content */
+.modal-content5 {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animateOpacity;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animateOpacity;
+    animation-duration: 0.4s
+}
+
+/* The Close Button */
+.close5 {
+    color: black;
+    float: right;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.close5:hover,
+.close5:focus {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header5 {
+    padding: 2px 16px;
+    background-color: #C2D188;
+    color: black;
+}
+
+.modal-body5 {
+    padding: 2px 16px;
+    border-radius: 15px;
+}
+
+.modal-footer5 {
+    padding: 2px 16px;
+    background-color: white;
+    color: white;
+}
+
+.Modal_omMadspild_img_box5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-self: center;
+    align-items: center;
+}
+
+.StopMadspild_text1_5 {
+    font-family: "open sans", sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.StopMadspild_text2_5 {
+    font-family: "open sans", sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+/* ---------------------------------------------------*/
+/* -- End section ------------------------------------*/
