@@ -590,17 +590,144 @@
         <div class="modal-body4">
             <p class="StopMadspild_text1_4">
 
-                <br><br>
+            <!---------------------------->
+            <!--Manual Slides-->
+            <!---------------------------->
 
-            </p>
+            <div class="slideshow_pushTop2"></div>   <!-- Skubber 10px toppen op ad, ikke mere -->
 
-            <p class="StopMadspild_text2_4">
+            <br>  <!-- Line break - Skubber et trin ned på layouttet -->
+
+            <div class="slideshow_background2">      <!-- Skaber en let whitesmoke farvet baggrund bag sliderne -->
+
+                <div class="slideshow-container2">       <!-- Slideshow container CONTENT -->
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+
+                    <!-- Slideshow window 1 CONTENT --> <!-- -------------------------------------------------->
+
+                    <div class="mySlides fade2">
+                        <div class="textHvadManKanGøre">
+                            <p class="text_slide_content">
+                                <b>Dit køleskab, dine køkkenskabe og din fryser gemmer på guld – </b><br>
+                                hvis du husker at udnytte al maden. På et år kan din husholdning spare over 7.000 kr. <br>
+                                <span style="margin-left:2em">Og om måneden kan du spare op til 4 timer i madindkøb. Mindre madspild betyder,
+                                at du sparer dine penge, sparer din tid og samtidigt sparer miljøbelastningen.</span><br>
+                            </p>
+                         </div> </div>
 
 
-            </p>
+                    <!-- Slideshow window 2 CONTENT - 300+ / 105.000+  --> <!-- -------------------------------------------------->
+
+                    <div class="mySlides fade2">
+
+                        <div class="textHvadManKanGøre">
+                            <p class="text_slide_content"><b>Lav ”Reste Tapas” eller ”Resteraunt” hver søndag,</b><br>
+                                hvor du husker at ”spise op” i dit køleskab og bruger alle de gode rester.<br>
+                                <span style="margin-left:2em">Hver måned skal du gøre det samme med din fryser og udnytte de gode rester, som du har gemt.</span><br>
+                                <span style="margin-left:2em">Husk også at spise op i dit køleskab og fryseren inden Julen og Påsken,
+                                for at gøre plads til den gode overskudsmad, som bliver skabt under helligdagene.</span></p>
+                        </div> </div>
+
+
+                    <!-- Slideshow window 3 CONTENT  --> <!-- -------------------------------------------------->
+
+                    <div class="mySlides fade2">
+
+                        <div class="textHvadManKanGøre">
+                            <p class="text_slide_content"><b>Lav ikke ”UFO’er” i din fryser – ”UFO” er et Uidentificeret Frosset Objekt i din fryser, </b>
+                                som består af glemte madrester, som du alligevel ender med at smide ud om et stykke tid. <br>
+                                <span style="margin-left:2em">Ca. hver 2. dansker har ”UFO’er” i sin fryser – og for mange er fryseren blevet den sidste stop inden skraldespanden. </span><br>
+                                <span style="margin-left:2em">Frys maden ned i mindre portioner, hav altid et system for at notere hvad du har frosset ned og hvornår er maden frosset ned.</span> <br>
+                                <span style="margin-left:2em">Og husk jævnligt at ”spise op” i din fryser.</span></p>
+                        </div> </div>
+
+                    <!-- Slideshow window 4 CONTENT  --> <!-- -------------------------------------------------->
+
+                    <div class="mySlides fade2">
+
+                        <div class="textHvadManKanGøre">
+                            <p class="text_slide_content"><b>Lær at opbevare maden rigtigt – </b>
+                                æbler, pærer, bananer og appelsiner skal helst ikke i berøring med hinanden, ellers modnes de hurtigere. <br>
+                                <span style="margin-left:2em">Tomater, avocado, rugbrød, kartofler, bananer og citrusfrugter skal opbevares udenfor køleskabet. </span><br>
+                                <span style="margin-left:2em">Broccoli, asparges, blomkål, champignoner, forårsløg, grønne bønner, gulerødder (uden top), salathoved,
+                                ingefær, kål, løg, persille, porrer, ruccola, salat, babyleaves og spinat opbevares i en plastpose i køleskabet.</span> <br>
+                                <span style="margin-left:2em">Brug kun plastemballage, som er egnet til fødevarer.</span></p>
+                        </div>
+                    </div>
+
+                    <br>
+                    <!-- The dots/circles -->
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                    </div>
+
+            <!---------------------------------------------------------------------------------------------->
+            <!---------------------------------------------------------------------------------------------->
+            <!-- End section - CONTENT BODY -->
+
+                </div>
+            </div>
         </div>
     </div>
 </div>
+
+<script>
+
+        // ---------------------------------------------------------------
+        // Slideshow Manual/Click Change script - CONTENT ------------------------------------
+        // ---------------------------------------------------------------
+
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+        }
+
+       /* let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+
+            setTimeout(showSlides, 4000); // Change image every 8000 seconds
+        }*/
+    </script>
 
 <script>
 
