@@ -2,9 +2,473 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="stylesheet" th:href="@{css/omMadspild_style.css}" href="../static/css/omMadspild_style.css">-->
+    <link rel="stylesheet" th:href="@{css/style.css}" href="../static/css/style.css">
+    <title>Om Madspild</title>
 </head>
+
+<header>
+
+    <!---------------->
+    <!--LOGO Content-->
+    <!---------------->
+
+    <div class ="index_top_row_box">           <!-- Header main flexbox - Samler alt i en kasse/box.  -->
+
+        <div class="top_row_space1"></div>     <!-- Giver 75px width space, fra Logo, venstre side.  -->
+
+        <div class="hover_effectLogo_button">  <!-- Mouse cursor hover - Laver en opacity og border effekt.  -->
+
+            <!-- Content til Logo  -->
+            <div class="top_row_logo_img_box">
+                <p class="rod_tekst_STOP">STOP</p>
+                <p class="hvid_tekst_SPILD_AF">SPILD AF</p>
+                <p class="hvid_tekst_MAD">MAD</p>
+            </div>
+
+        </div>
+
+        <div class="top_row_space2"></div>     <!-- Giver 15px width space, fra logo højre side.  -->
+
+        <!------------------------------------------------------------------------------------------->
+        <!------------------------------------------------------------------------------------------->
+        <!-- End section -->
+
+
+
+        <!---------------------------->
+        <!--CONTENT: PRINCIP tekster-->
+        <!---------------------------->
+
+        <!----------------------------------->
+        <!--Venstre Princip box Content------>
+        <!--Både Top og Bund tekst Content -->
+        <!----------------------------------->
+
+        <!-- "Vi er Danmarks største bevægelse mod madspild." = Text Box Section -->
+
+        <div class="top_row_princip_container1"> <!-- Flexbox: Samler headlines "Princip tekst" i en kasse - Højre side box -->
+            <!-- Venstre box med top tekst: "Vi er Danmarks støreste..... -->
+            <!-- Venstre box med bund tekst: "Vi har igangsat kampen..... -->
+
+            <div class="top_row_princip_text_box">   <!-- Samler den ene top tekst box: "Vi er Danmarks største... --->
+
+                <div class="line_top"></div>         <!-- Øverste grønne linje -->
+
+                <p class="princip_headline_text">Vi er Danmarks største<br> bevægelse mod madspild.</p>
+
+                <div class="line_bottom"></div>      <!-- Nederste grønne linje -->
+
+            </div>
+
+            <!-- "Vi har igangsat kampen mod madspild i Danmark." = Text Box Section -->
+
+            <div class="top_row_princip_text_box">    <!-- Gentager samme proces, som forklaret ovenover. -->
+
+                <div class="line_top"></div>
+
+                <p class="princip_headline_text"> Vi har igangsat kampen<br> mod madspild i Danmark.</p>
+
+                <div class="line_bottom"></div>
+
+            </div> </div>
+
+        <!----------------------------------->
+        <!--Højre Princip box CONTENT-------->
+        <!--Både Top og Bund tekst CONTENT -->
+        <!----------------------------------->
+
+        <!-- "Vi bragte Danmarks kamp<br> mod madspild på verdenskortet." = Text Box Section -->
+
+        <div class="top_row_princip_container2">  <!-- Flexbox: Samler headlines "Princip tekst" i en kasse - Venstre side box -->
+            <!-- Højre box med top tekst: "Vi bragte Danmarks kamp..... -->
+            <!-- Højre box med bund tekst: "Over 60.000 danskere..... -->
+
+            <div class="top_row_princip_text_box">   <!-- Samler den ene top tekst box: "Vi er Danmarks største... --->
+
+                <div class="line_top"></div>         <!-- Øverste grønne linje -->
+
+                <p class="princip_headline_text">
+                    Vi bragte Danmarks kamp<br> mod madspild på verdenskortet.</p>
+
+                <div class="line_bottom"></div>      <!-- Nederste grønne linje -->
+
+            </div>
+
+            <!-- "Over 60.000 danskere siger nej til madspild." = Text Box Section -->
+
+            <div class="top_row_princip_text_box">   <!-- Gentager samme proces, som forklaret ovenover. -->
+
+                <div class="line_top"></div>
+
+                <p class="princip_headline_text">Over 60.000 danskere<br> siger nej til madspild. </p>
+
+                <div class="line_bottom"></div>
+
+            </div> </div>
+
+        <!---------------------------------------------------------------------------------------------->
+        <!---------------------------------------------------------------------------------------------->
+        <!-- End section -->
+
+
+
+        <!---------------------------------------------------------------------->
+        <!-- CONTENT: Modal Windows Sections: ---------------------------------->
+        <!---------------------------------------------------------------------->
+        <!-- Pop-up vinduerne indhold ------------------------------------------>
+        <!---------------------------------------------------------------------->
+
+
+        <div class="Section_line1"></div>  <!-- En grå prikket linje, som adskiller teksterne fra knapperne -->
+
+
+        <!-- The Modal - Om Stop af Madspild knappen. -->
+
+        <div id="myModal" class="modal">          <!-- Modal knap referencen - Selve knappen skabelse -->
+
+            <!-- Modal content -->
+            <div class="modal-content">           <!-- Modal knappen indhold/content -->
+
+                <div class="modal-header">        <!-- Modal knap header content -->
+                    <span class="close">&times;</span>  <!-- Modal header X (Exit) knap -->
+
+                    <i><h1>Om Stop af Madspild:</h1></i>
+                </div>
+
+                <!-- Modal body Content -->
+
+                <div class="modal-body">
+                    <p class="StopMadspild_text1"><b>Vi er Danmarks største bevægelse mod madspild.</b><br><br>
+                        <i>Stop Spild Af Mad</i> er en non-profit, frivillig forbrugerbevægelse,
+                        som kæmper mod madspild,<br> og siden 2008 har medvirket til at bringe massivt
+                        fokus på madspild i Danmark<br> samt opnået en lang række resultater i både Danmark
+                        og i samarbejde med Regeringen, EU, Norden og FN.<br><br>
+                        Vi bragte fokus på madspild i Danmark og vi bragte Danmarks kamp mod madspild
+                        på verdenskortet.<br> Danmark genererer årligt madspild på mange hundrede
+                        tusind tons - og det kæmper vi for at stoppe.</p>
+
+                    <p class="StopMadspild_text2"><i>Stop Spild Af Mad</i> har nationale og internationale
+                        samarbejder og vi bakkes op af over 60.000 danskere,<br>
+                        samt en lang række toneangivende toppolitikere og anerkendte madpersonligheder,
+                        som ikke vil finde sig i madspild.<br><br> <i>Stop Spild Af Mad</i> optræder i mange
+                        nationale og internationale medier, bl.a. på BBC og CNN.<br><br>
+                        <i>Stop Spild Af Mad</i> arbejder aktivt med realiseringen af FN’s verdensmål,<br>
+                        for bæredygtig udvikling UN Sustainable Development Goal 12.3.</p>
+                </div>
+
+                <!-- Modal body - Billeder Content -->
+
+                <div class="Modal_omMadspild_img_box">
+                    <img class="modal_OmMadspild_img"  th:src="@{images/madspild_img/SD_img.PNG}" src="../static/images/madspild_img/SD_img}">
+                    <img class="modal_OmMadspild_img"  th:src="@{images/madspild_img/Goals_img.PNG}" src="../static/images/madspild_img/Goals_img.PNG}">
+                    <a class="12_img_link" th:href="@{https://sdgs.un.org/goals/goal12}" target="_blank"><img class="modal_OmMadspild_img" th:src="@{images/madspild_img/12_img.PNG}" src="../static/images/madspild_img/12_img.PNG}"></a>
+                </div>
+
+                <!-- Modal body - footer Content -->
+
+                <div class="modal-footer">
+                    <h3></h3>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <!---------------------------------------------------------------------------------------------->
+        <!---------------------------------------------------------------------------------------------->
+        <!-- End section -->
+
+
+
+        <!-------------------------------------------------------------------------------------------------->
+        <!--CONTENT - HEADER Knapper = "Om Stop / Teams / Priser / Kontakt / Search / Language / Facebook -->
+        <!-------------------------------------------------------------------------------------------------->
+
+        <div class="takeOver_promote_box">      <!-- Flexbox: Samler alle knapperne i en hel kasse/box -->
+            <!-- ( Om Stop... / Teams... / Priser... / Kontakt... / Search / Language / Facebook ) -->
+
+            <!-- takeoOver_promote_box var et panisk forsøg, at kæde ting sammen, så dens width & height er ikke effektive. -->
+            <!-- Men vil ikke fjerne div boxen, siden sitet fungere optimalt. -->
+
+
+            <!----------------------------------------->
+            <!--Venstre Knappe box CONTENT------------->
+            <!--Både Om Stop... og Priser... CONTENT -->
+            <!----------------------------------------->        <!-- &nbsp = Skaber mellem-rum i HTML sektionen -->
+
+            <!-- "Om Stop af Madspild" - Button Box Section -->
+
+            <div class="top_column_promote_container">       <!-- Flexbox: Omkring Knapperne - ( Om Stop... / Priser... ) -->
+
+                <div class="top_column_promote_text_box">    <!-- Teksten inde i knappen: "Om Stop af Madspild" -->
+
+                    <div class="hover_effect_button">        <!-- Hover effekten på alle header knapperne -->
+
+                        <p class="omMadspild_button"><a id="myBtn"><i>&nbsp&nbspOm Stop<br> af Madspild</i></a></p>
+
+                    </div> </div>
+
+                <!-- "Priser og Anerkendelser" - Button Box Section -->
+
+                <div class="top_column_promote_text_box">    <!-- Teksten inde i knappen: "Priser og Anerkendelser" -->
+
+                    <div class="hover_effect_button">        <!-- Hover effekten på alle header knapperne -->
+
+                        <p class="priser_button"><i>&nbsp&nbsp&nbsp&nbspPriser og Anerkendelser</i></p>
+
+                    </div>
+
+                </div> </div>
+
+
+            <!----------------------------------------->
+            <!--Højre Knappe box CONTENT--------------->
+            <!--Både Teams... og Kontakt... CONTENT --->
+            <!----------------------------------------->
+
+            <!-- "Teams & Partnere" - Button Box Section -->
+
+            <div class="top_column_promote_container">       <!-- Flexbox: Omkring Knapperne - ( Teams... / Kontakt... ) -->
+
+                <div class="top_column_promote_text_box">    <!-- Teksten inde i knappen: "Teams & Partnere" -->
+
+                    <div class="hover_effect_button">        <!-- Hover effekten på alle header knapperne -->
+
+                        <p class="teams_og_partnere_button"><i>&nbsp&nbsp&nbsp&nbspTeams<br> & Partnere</i></p>
+
+                    </div>
+
+                </div>
+
+                <!-- "Kontakt" - Button Box Section -->
+
+                <div class="top_column_promote_text_box">   <!-- Teksten inde i knappen: "Kontakt info -Social media" -->
+
+                    <div class="hover_effect_button">       <!-- Hover effekten på alle header knapperne -->
+
+                        <p class="Kontakt_button"><i>&nbsp&nbspKontakt<br>& SoMe</i></p>
+
+                    </div>
+
+                </div> </div>
+
+
+            <div class="Section_line2"></div>      <!-- En grå prikket linje, som adskiller venstre knapper, til højre knapper -->
+
+
+            <!------------------------------------------------------------->
+            <!--Search / Language / Facebook knapper CONTENT--------------->
+            <!------------------------------------------------------------->
+
+            <!-- "Search" - Button Box Section -->
+
+            <div class="top_column_promote_container">       <!-- Flexbox: Omkring Knapperne - ( Search / Language / Facebook ) -->
+
+                <div class="top_column_promote_text_box">    <!-- Teksten inde i knappen: "Kontakt info -Social media" -->
+
+                    <div class="hover_effect2_button">       <!-- Hover2 effekten på alle knapperne i den her sektion -->
+
+                        <button class="searchButton_text" type="submit"><img width="50" height="50" th:src="@{images/madspild_img/index_img/searchLogo_img_edit.PNG}" src="../static/images/madspild_img/index_img/searchLogo_img_edit.PNG}">
+
+                        </button>
+
+                    </div>
+
+                    <!-- "Language" - Button Box Section -->
+
+                    <div class="hover_effect2_button">   <!-- Hover2 effekten på alle knapperne i den her sektion -->
+
+                        <img class="language_button" th:src="@{images/madspild_img/index_img/english_img_edit.PNG}" src="../static/images/madspild_img/index_img/english_img_edit.PNG}">
+
+                    </div>
+
+                    <!-- "Facebook" - Button Box Section -->
+
+                    <div class="hover_effect2_button">       <!-- Hover2 effekten på alle knapperne i den her sektion -->
+
+                        <img class="facebook_button" th:src="@{images/madspild_img/index_img/facebook_img_edit.PNG}" src="../static/images/madspild_img/index_img/facebook_img_edit.PNG}">
+
+                    </div>
+
+                </div> </div>
+
+            <div class="Section_line3"></div>  <!-- En grå prikket linje, som afslutter HEADER CONTENT -->
+
+
+        </div> </div>
+
+    <!---------------------------------------------------------------------------------------------->
+    <!---------------------------------------------------------------------------------------------->
+    <!-- End section -->
+
+    <!-- ---------------- --> <!---------------------------------------------------------------------->
+    <!--  CONTENT: TOP NAV MENU --> <!---------------------------------------------------------------->
+    <!-- ---------------- --> <!---------------------------------------------------------------------->
+
+    <br>  <!-- Line break - Skubber et trin ned på layouttet -->
+
+    <div class="topnav">
+
+        <div class="top_row_space_topnav"></div>
+
+        <a href="#om-mad-spild"><i>Om<br> Madspild</i></a> <br>
+        <a href="#om-organisationen"><i>Om<br> Organisationen</i></a> <br>
+        <a href="#vores-projekter"><i>Vores<br> Projekter</i></a> <br>
+        <a href="#blev-aktiv"><i>Bliv<br> Aktiv</i></a> <br>
+
+    </div>
+
+    <script>// ---------------------------------------------------------------------
+    // Modal - Om Stop af Madspild knap ------------------------------------
+    // ---------------------------------------------------------------------
+
+    // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks the button, open the modal
+    btn.onclick = function() {
+        modal.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+
+    </script>
+
+</header>
+
+<!---------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------------------->
+<!-- End section - CONTENT HEADER -->
+
+
+<!-- ---------------- --> <!---------------------------------------------------------------------->
+<!--  CONTENT: BODY --> <!------------------------------------------------------------------------>
+<!-- ---------------- --> <!---------------------------------------------------------------------->
+
 <body>
 
+        <!---------------------------------------------------------------------->
+        <!-- CONTENT: Modal Windows Sections: ---------------------------------->
+        <!---------------------------------------------------------------------->
+        <!-- Pop-up vinduerne indhold ------------------------------------------>
+        <!---------------------------------------------------------------------->
+
+
+
+        <!-- The Modal - Om Stop af Madspild knappen. -->
+        <div class="top_column_promote_container2">       <!-- Flexbox: Omkring Knapperne - ( Om Stop... / Priser... ) -->
+
+            <div class="top_column_promote_text_box2">    <!-- Teksten inde i knappen: "Om Stop af Madspild" -->
+
+                <div class="hover_effect_button2">        <!-- Hover effekten på alle header knapperne -->
+
+                    <p class="modal_omMadspild_popUpButtonFrame_ID_Button"><a id="nejMyBtn"><i>&nbsp&nbspOm Stop<br> af Madspild</i></a></p>
+
+                </div> </div>
+
+        <div id="nejMyModal" class="modal_omMadspild_popUpButtonFrame_Modal">   </div>  <!-- Modal knap referencen - Selve knappen skabelse -->
+        </div>
+
+            <!-- Modal content -->
+            <div class="modal-content2">           <!-- Modal knappen indhold/content -->
+
+                <div class="modal-header2">        <!-- Modal knap header content -->
+                    <span class="close2">&times;</span>  <!-- Modal header X (Exit) knap -->
+
+                    <i><h1>Om Stop af Madspild:</h1></i>
+                </div>
+
+                <!-- Modal body Content -->
+
+                <div class="modal-body">
+                    <p class="StopMadspild_text1_2"><b>Vi er Danmarks største bevægelse mod madspild.</b><br><br>
+                        <i>Stop Spild Af Mad</i> er en non-profit, frivillig forbrugerbevægelse,
+                        som kæmper mod madspild,<br> og siden 2008 har medvirket til at bringe massivt
+                        fokus på madspild i Danmark<br> samt opnået en lang række resultater i både Danmark
+                        og i samarbejde med Regeringen, EU, Norden og FN.<br><br>
+                        Vi bragte fokus på madspild i Danmark og vi bragte Danmarks kamp mod madspild
+                        på verdenskortet.<br> Danmark genererer årligt madspild på mange hundrede
+                        tusind tons - og det kæmper vi for at stoppe.</p>
+
+                    <p class="StopMadspild_text2_2"><i>Stop Spild Af Mad</i> har nationale og internationale
+                        samarbejder og vi bakkes op af over 60.000 danskere,<br>
+                        samt en lang række toneangivende toppolitikere og anerkendte madpersonligheder,
+                        som ikke vil finde sig i madspild.<br><br> <i>Stop Spild Af Mad</i> optræder i mange
+                        nationale og internationale medier, bl.a. på BBC og CNN.<br><br>
+                        <i>Stop Spild Af Mad</i> arbejder aktivt med realiseringen af FN’s verdensmål,<br>
+                        for bæredygtig udvikling UN Sustainable Development Goal 12.3.</p>
+                </div>
+
+                <!-- Modal knap - Billeder Content -->
+
+            </div> </div>
+
+
+
+        <script>
+
+            // ---------------------------------------------------------------------
+            // Modal - Om Stop af Madspild knap ------------------------------------
+            // ---------------------------------------------------------------------
+
+            // Get the modal
+            var modal = document.getElementById("nejMyModal");
+
+            // Get the button that opens the modal
+            var btn = document.getElementById("nejMyBtn");
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close2")[0];
+
+            // When the user clicks the button, open the modal
+            btn.onclick = function() {
+                modal.style.display = "block";
+            }
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+                modal.style.display = "none";
+            }
+
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+
+        </script>
+
+
 </body>
+
+
+
+
+
+
+
+        <!---------------------------------------------------------------------------------------------->
+        <!---------------------------------------------------------------------------------------------->
+        <!-- End section -->
+
 </html>

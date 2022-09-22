@@ -11,7 +11,7 @@
 }
 
 .top_row_space1 {
-    width: 75px;
+    width: 10px;
 }
 
 .hover_effectLogo_button div:hover {
@@ -422,6 +422,7 @@
     font-weight: bold;
     border-radius: 5px;
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 

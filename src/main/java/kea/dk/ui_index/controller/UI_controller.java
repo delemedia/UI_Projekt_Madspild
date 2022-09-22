@@ -13,5 +13,12 @@ public class UI_controller {
 
 }
 
+@GetMapping("/omMadspild")
+public String omMadspild(){
+
+    return "Home/omMadspild";
+
+}
+
 
 }
