@@ -272,7 +272,8 @@
 
                    <div class="hover_effect2_button">       <!-- Hover2 effekten på alle knapperne i den her sektion -->
 
-                       <button class="searchButton_text" type="submit"><img width="50" height="50" th:src="@{images/madspild_img/index_img/searchLogo_img_edit.PNG}" src="../static/images/madspild_img/index_img/searchLogo_img_edit.PNG}">
+                       <button class="searchButton_text" type="submit">
+                           <img th:src= "@{images/madspild_img/index_img/searchLogo_img_edit.PNG}" src="../static/images/madspild_img/index_img/searchLogo_img_edit.PNG}">
 
                        </button>
 
@@ -341,7 +342,8 @@
 
 <body>
 
-<div class="slideshow_pushTop"></div>   <!-- Skubber 10px toppen op ad -->
+<div class="slideshow_pushTop"></div>   <!-- Skubber 0px toppen op ad -->
+
 
 <br>  <!-- Line break - Skubber et trin ned på layouttet -->
 
@@ -415,6 +417,8 @@
             <div class="hover_effectLink_button"><a class="togootogo_link" th:href="@{https://toogoodtogo.dk/da/movement/education/food-waste-a-global-problem}" href="https://toogoodtogo.dk/da/movement/education/food-waste-a-global-problem" target="_blank">Læs mere</a></div></div>
 
     </div> </div> </div>
+<div class="slideshow_pushBottom"></div>   <!-- Skubber væk fra footer  -->
+
 
 <!---------------------------------------------------------------------------------------------->
 <!---------------------------------------------------------------------------------------------->
